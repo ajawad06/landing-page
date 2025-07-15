@@ -10,7 +10,7 @@ html, body {
   
   background-color: #1f2937;
   color:white;
-  padding: 0px 170px;
+  padding: 50px 170px;
 }
 .top-bar {
   display:flex;
@@ -168,16 +168,19 @@ html, body {
  .modal-text p{
   color: #e5e7eb
  }
-.signup-button{
-   padding:0px 100px;
+#signup-btn{
+   border-color: 2px solid white;
 }
-button{
-background-color: #3882f6;
-border:2px solid;
-border-color: white;
-font-weight: 700;
-border-radius: 5px;
-color:white;
-height: 30px;
-width:100px;
+button {
+  background-color: #3882f6;
+  border: 2px solid;    /* This uses the current text color by default */
+  font-weight: 700;
+  border-radius: 5px;
+  color: white;
+  height: 30px;
+  width: 100px;
 }
+.container-left button{
+  border: none;
+}
+
